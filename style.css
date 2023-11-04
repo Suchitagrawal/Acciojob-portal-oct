@@ -1,0 +1,279 @@
+/* @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Roboto:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+*{
+    margin:0;
+    padding:0;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'ABeeZee', sans-serif; 
+    box-sizing: border-box;
+}
+
+.vertical-line{
+    height: 2.2rem;
+    border-left: 1px solid #DADADA;
+}
+
+.accio-logo img{
+    gap: 10px;
+    width: 7rem;
+    height: 2rem;
+}
+
+.direct-link-class{
+    list-style-type: none;
+    
+}
+
+.direct-link-class a{
+  color:#4f4f4f; 
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.nav-bar{
+    margin-top: 1.1rem;
+    background-color: white;
+    flex-wrap: wrap; 
+    
+    /* border-bottom: 2px solid #2f80ed; */
+}
+
+.direct-link-class button{
+    margin-inline: 1rem;
+    padding-inline: 1.8rem;
+    border-radius: 10px;
+    border: 3px solid #2f80ed;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2f80ed;
+}
+
+.nav-2{
+    width: 100vw;
+    height: 2rem;
+    background-color: #2f80ed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4rem;
+}
+ p{
+    color: #737373;
+ }
+
+.CTA-form{
+    width: 25rem;
+    height: 30rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    /* gap: 28px; */
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:white;
+    box-shadow: 10px 10px #adbac1;
+    /* right: 90px; */
+    /* position: relative; */
+
+}
+
+.CTA-form .CTA-2 form input{
+    height: 3rem;
+    width: 20rem;
+    background-color:#fafafa;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.CTA-form .CTA-3 button{
+    width: 22rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #6d50ed;
+    color: white;
+}
+
+.CTA-1{
+    text-align: center;
+}
+.CTA-3{
+    text-align: center;
+}
+.hero-left{
+    padding: 2.5rem;
+    /* margin-inline: 10rem; */
+}
+
+.hero-left-top-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    padding-top: 1rem;
+    padding-inline: 1rem;
+    border: 1px solid;
+    box-shadow: 5px 5px #adbac1;
+}
+
+.hero-left-bottom{
+    border: 1px solid;
+    width: 50%;
+    margin-block: 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    box-shadow: 5px 5px #adbac1;
+    /* font-size: 15px; */
+    /* display: flex;
+    align-items: flex-start; */
+}
+.hero-section{
+    /* border: 10px solid; */
+    /* width: 100vw; */
+    flex-wrap: wrap;
+    padding: 4rem;
+    /* margin: 2rem; */
+}
+
+.courses-heading{
+   text-align: center;
+   padding-block: 2rem;
+}
+
+.card-top img{
+    width: 300px;
+}
+.beginner-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 50px;
+    gap: 10px;
+    padding: 1rem;
+    height: 32rem;
+    width: 30rem;
+    border: 7px solid #2f80ed;
+    margin-bottom: 90px;
+    border: 2px solid lightgray;
+}
+
+.card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.courses-we-offer .course-card{
+   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   /* margin-inline:50px; */
+}
+
+.card-btn button{
+    margin: 1rem;
+    padding-inline: 3.2rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #2f80ed;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2f80ed;
+}
+ .details div{
+    margin: 20px;
+    border-bottom: 1px solid lightgray;
+ }
+
+ .courses-we-offer{
+    background-color: #ecf8ff;
+    /* flex-wrap: wrap; */
+ }
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .companies-heading{
+    text-align: center;
+    padding-block: 70px;
+ }
+ .companies-logo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap
+ }
+
+ .companies-logo img{
+    padding: 10px;
+    margin: 10px;
+ }
+
+ /* .companies-logo-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ } */
+ .companies-btn button{
+    margin: 25px;
+    padding-inline: 30px;
+    border-radius: 10px;
+    border: 2px solid #2f80ed;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #2f80ed; 
+    color: white; 
+    height:50px;
+    margin: 50px;
+ }
+
+ .student-wall-heading{
+    text-align: center;
+ }
+
+ .student-1{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: flex-start;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .position{
+    display: flex;
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+ }
+ .position img{
+    margin-inline: 30px;
+ }
+.LinkedIN{
+    height: 30px;
+    width: 30px;
+}
+
+.stu-pic{
+    height: 60px;
+    width: 60px;
+}
+
+.students{
+    /* flex-wrap: nowrap; */
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
