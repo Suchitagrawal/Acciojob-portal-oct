@@ -205,7 +205,8 @@ header{
 }
  .companies-heading{
     text-align: center;
-    padding-block: 70px;
+    padding: 1rem;
+    margin-top: 2rem;
  }
  .companies-logo{
      display: flex;
@@ -215,26 +216,36 @@ header{
  }
 
  .companies-logo img{
-    padding: 10px;
-    margin: 10px;
+    padding: 1rem;
+    margin: 1rem;
  }
-
+.companies-logo img{
+    position: absolute
+    animation: colorAnimate 3s ease-in 0s infinite alternate;
+}
+@keyframes colorAnimate{
+    from{ left: 0px;
+    }
+    to{
+        right: 0px;
+    }
+}
  /* .companies-logo-1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
  } */
  .companies-btn button{
-    margin: 25px;
-    padding-inline: 30px;
-    border-radius: 10px;
+    /* margin: 25px; */
+    padding-inline: 1.5rem;
+    border-radius: 0.2rem;
     border: 2px solid #2f80ed;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.2rem;
     background-color: #2f80ed; 
     color: white; 
-    height:50px;
-    margin: 50px;
+    height:3rem;
+    margin: 1rem;
  }
 
  .student-wall-heading{
@@ -242,32 +253,35 @@ header{
  }
 
  .student-1{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     /* text-align: center; */
     align-items: flex-start;
     border: 1px solid lightgray;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
+    /* width: 20rem; */
+    height: 25rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
  }
 
  .position{
-    display: flex;
-    /* justify-content: space-around; */
-    /* flex-direction: row; */
+    display: flex; 
+    align-items:flex-start;
+    justify-content: space-around; 
+     /* flex-direction: row;  */
  }
  .position img{
-    margin-inline: 30px;
+    margin-inline: 1rem;
  }
 .LinkedIN{
-    height: 30px;
-    width: 30px;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .stu-pic{
-    height: 60px;
-    width: 60px;
+    height: 3rem;
+    width: 3rem;
 }
 
 .students{
