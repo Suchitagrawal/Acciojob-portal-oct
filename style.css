@@ -34,6 +34,8 @@
 header{
     position: sticky;
     top: 0;
+    right: 0;
+    left: 0;
 }
 .nav-bar{
     margin-top: 1.1rem;
@@ -212,22 +214,23 @@ header{
      display: flex;
      align-items: center;
      justify-content: space-between;
-     flex-wrap: wrap
+     flex-wrap: wrap;
  }
 
  .companies-logo img{
     padding: 1rem;
     margin: 1rem;
  }
-.companies-logo img{
-    position: absolute
+.companies-logo{
+    /* position: absolute; */
     animation: colorAnimate 3s ease-in 0s infinite alternate;
 }
-@keyframes colorAnimate{
-    from{ left: 0px;
+@keyframe colorAnimate{
+    from{ 
+        left: 0;
     }
     to{
-        right: 0px;
+        right: 0;
     }
 }
  /* .companies-logo-1{
@@ -253,22 +256,22 @@ header{
  }
 
  .student-1{
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     /* text-align: center; */
     align-items: flex-start;
     border: 1px solid lightgray;
-    /* width: 20rem; */
+    width: 30rem;
     height: 25rem;
     border-radius: 1rem;
     margin: 1rem;
     padding: 1rem;
  }
-
+ 
  .position{
     display: flex; 
     align-items:flex-start;
-    justify-content: space-around; 
+    /* justify-content: space-between;  */
      /* flex-direction: row;  */
  }
  .position img{
@@ -285,7 +288,8 @@ header{
 }
 
 .students{
-    /* flex-wrap: nowrap; */
+    display: flex; 
+   flex-wrap: nowrap;
     overflow: scroll;
 }
 ::-webkit-scrollbar{
